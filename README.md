@@ -41,8 +41,16 @@ in this case.
 
 From GitHub:
 
-    git clone https://github.com/BioComputingUP/MobiDB-lite.git
-    pip install .
+```bash
+git clone https://github.com/BioComputingUP/MobiDB-lite.git
+
+# one-off
+python3 -m venv .venv
+
+source .venv/bin/activate
+    
+pip install .
+```
 
 ### How to install MobiDB-lite using Conda?
 
